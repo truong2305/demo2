@@ -1,0 +1,184 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/8f30234327.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0 rounded-bottom">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand opacity-50 p-3 me-0 lh-sm" href="#">Logo</a>
+          <button
+            class="navbar-toggler me-3"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active bg-black p-3" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#">Messages</a>
+              </li>
+            </ul>
+            <div class="navbar-nav">
+              <a class="nav-link p-3" href="#"><i class="fa fa-user" aria-hidden="true"></i> My Account</a>
+            </div>
+            <form class="d-flex my-3 my-lg-0 px-3 me-lg-3 me-0">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search..." />
+                <button class="btn bg-white border-start" type="button">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mt-3 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3 p-0">
+            <div class="bg-light rounded border p-3 text-center">
+              <div class="border rounded p-3">
+                <h1 class="text-primary fw-bold fs-5 mb-3">My Profile</h1>
+                <img src="./images/john.jpg" class="rounded-circle border" height="100" width="100" alt="avatar" />
+              </div>
+              <div class="border rounded p-3 my-3">
+                <div class="text-primary fw-bold fs-5 mb-3">Interests</div>
+                <div class="d-flex text-white flex-wrap gap-1 justify-content-center">
+                  <span class="b-inline-block px-2 py-1 rounded fw-bold bg-secondary">News</span>
+                  <span class="b-inline-block px-2 py-1 rounded fw-bold bg-primary">W3Schools</span>
+                  <span class="b-inline-block px-2 py-1 rounded fw-bold bg-success">Labels</span>
+                  <span class="b-inline-block px-2 py-1 rounded fw-bold bg-info">Football</span>
+                  <span class="b-inline-block px-2 py-1 rounded fw-bold bg-warning">Gaming</span>
+                  <span class="b-inline-block px-2 py-1 rounded fw-bold bg-danger">Friends</span>
+                </div>
+              </div>
+              <div class="border rounded p-3 alert-success position-relative">
+                <div class="position-absolute top-0 end-0 p-2">
+                  <button class="btn">
+                    <i class="fa fa-times text-secondary" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <p class="mb-0">
+                  <span class="d-block fw-bold">Ey!</span> People are looking at your profile. Find out who.
+                </p>
+              </div>
+              <ul class="nav mt-3 d-flex flex-column pb-3">
+                <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 my-3 my-lg-0 col-lg-7">
+            <div class="d-flex gap-3 flex-column">
+              <div class="rounded border p-3">
+                <div class="fs-5">Status: Felling Blue</div>
+                <div class="mt-3">
+                  <button class="btn btn-light border">
+                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Like
+                  </button>
+                </div>
+              </div>
+
+              <div class="d-md-flex d-block text-center">
+                <div class="bg-light rounded border py-3 px-5 me-md-4 me-0 mb-3 mb-md-0">
+                  <div class="fs-5 mb-2">John</div>
+                  <img src="./images/john.jpg" class="rounded-circle border" height="80" width="80" alt="john avatar" />
+                </div>
+                <div class="flex-grow-1">
+                  <p class="bg-light rounded border p-3 pb-5 mb-0">
+                    Just Forgot that i had to mention something about someone to someone about how i forgot something,
+                    but now i forgot it. Ahh, forget it! Or wait. I rememer... no i don't.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-md-flex d-block text-center">
+                <div class="bg-light rounded border py-3 px-5 me-md-4 me-0 mb-3 mb-md-0">
+                  <div class="fs-5 mb-2">Bo</div>
+                  <img src="./images/bo.jpg" class="rounded-circle border" height="80" width="80" alt="bo avatar" />
+                </div>
+                <div class="flex-grow-1">
+                  <p class="bg-light rounded border p-3 pb-5 mb-0">
+                    Just Forgot that i had to mention something about someone to someone about how i forgot something,
+                    but now i forgot it. Ahh, forget it! Or wait. I rememer... no i don't.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-md-flex d-block text-center">
+                <div class="bg-light rounded border py-3 px-5 me-md-4 me-0 mb-3 mb-md-0">
+                  <div class="fs-5 mb-2">Jane</div>
+                  <img src="./images/jane.png" class="rounded-circle border" height="80" width="80" alt="jane avatar" />
+                </div>
+                <div class="flex-grow-1">
+                  <p class="bg-light rounded border p-3 pb-5 mb-0">
+                    Just Forgot that i had to mention something about someone to someone about how i forgot something,
+                    but now i forgot it. Ahh, forget it! Or wait. I rememer... no i don't.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-md-flex d-block text-center">
+                <div class="bg-light rounded border py-3 px-5 me-md-4 me-0 mb-3 mb-md-0">
+                  <div class="fs-5 mb-2">Anja</div>
+                  <img src="./images/anja.jpg" class="rounded-circle border" height="80" width="80" alt="anja avatar" />
+                </div>
+                <div class="flex-grow-1">
+                  <p class="bg-light rounded border p-3 pb-5 mb-0">
+                    Just Forgot that i had to mention something about someone to someone about how i forgot something,
+                    but now i forgot it. Ahh, forget it! Or wait. I rememer... no i don't.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 p-0">
+            <aside class="bg-light rounded border p-3 text-center">
+              <div class="card text-center p-1">
+                <div class="mb-2 fs-5">Upcoming events:</div>
+                <img src="./images/paris.jpg" class="card-img-top" alt="paris" />
+                <div class="">
+                  <h5 class="card-title fs-5">Paris</h5>
+                  <p class="card-text">Fri, 27 November 2015</p>
+                  <a href="#" class="btn btn-primary">Info</a>
+                </div>
+              </div>
+              <div class="border rounded p-3 pb-4 my-3 fs-5">ADS</div>
+              <div class="border rounded p-3 pb-4 mb-3 fs-5">ADS</div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
